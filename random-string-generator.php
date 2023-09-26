@@ -2,9 +2,9 @@
 /*
 Plugin Name: Random String Generator
 Description: Generates a random 3-letter and 3-number string. Use: [shortcode_generator]
-Version: 3.1.1
+Version: 3.2
 Author: Dominik Wojtysiak
-License: GPLv2 or later
+License: MIT
 */
 
 // Register a shortcode
@@ -59,6 +59,19 @@ function cwpai_random_string_settings_menu() {
     add_options_page('Random String Generator', 'Random String Generator', 'manage_options', 'cwpai-random-string', 'cwpai_random_string_settings_page');
 }
 add_action('admin_menu', 'cwpai_random_string_settings_menu');
+
+require 'plugin-update-checker/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://github.com/user-name/repo-name/',
+	__FILE__,
+	'random_string_generator'
+);
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('main');
+
 ?>
 
 
