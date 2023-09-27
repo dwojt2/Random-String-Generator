@@ -5,8 +5,6 @@ Requires at least: 4.5
 Tested up to: 6.3
 Stable tag: 6.3
 Requires PHP: 7.0
-License: MIT
-License URI: https://www.mit.edu/~amini/LICENSE.md
 
 Generates a random string. Use: [random_string]
 
