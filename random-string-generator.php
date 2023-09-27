@@ -1,10 +1,9 @@
 <?php
 /*
 Plugin Name: Random String Generator
-Description: Generates a random 3-letter and 3-number string. Use: [random_string]
+Description: Generates a random string. Use: [random_string]
 Version: 3.2
 Author: Dominik Wojtysiak
-License: MIT
 */
 
 // Register a shortcode
