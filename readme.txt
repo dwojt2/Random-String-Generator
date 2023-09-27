@@ -1,10 +1,10 @@
 === Random String Generator ===
 Contributors: dominikw118
 Donate link: https://donate.wojtysiak.one/
-Requires at least: 4.5
+Requires at least: 6.3
 Tested up to: 6.3
 Stable tag: 6.3
-Requires PHP: 7.0
+Requires PHP: 8.0
 
 Generates a random string. Use: [random_string]
 
