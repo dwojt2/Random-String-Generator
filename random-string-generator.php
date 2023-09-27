@@ -64,7 +64,7 @@ require 'plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-	'https://github.com/user-name/repo-name/',
+	'https://github.com/dwojt2/Random-String-Generator',
 	__FILE__,
 	'random_string_generator'
 );
