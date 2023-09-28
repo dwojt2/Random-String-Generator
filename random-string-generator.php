@@ -2,7 +2,7 @@
 /*
 Plugin Name: Random String Generator
 Description: Generates a random string. Use: [random_string]
-Version: 3.2
+Version: 3.3
 Author: Dominik Wojtysiak
 */
 
